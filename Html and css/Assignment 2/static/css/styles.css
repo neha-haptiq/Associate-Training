@@ -1,28 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Heebo", sans-serif;
-  margin: 0;
   color: #333;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
 a {
   text-decoration: none;
   color: #000;
 }
 
 .container {
-  width: 1200px;
-  margin: auto;
-  border: #000 2px solid;
-  /* padding: 40px 20px; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: larger;
+  font-weight: bold;
 }
 
 /* Header */
+
 nav {
   display: flex;
   justify-content: flex-end;
-  padding: 20px 40px;
 }
 
 .nav-links a {
@@ -32,13 +44,13 @@ nav {
 .banner-content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 180px;
   margin-bottom: 30px;
 }
 
 .banner-text h1 {
-  font-size: 32px;
+  font-size: 44px;
   margin: 0;
 }
 
@@ -50,7 +62,6 @@ nav {
 .banner-text p {
   margin: 20px 0;
   line-height: 1.5;
-  max-width: 400px;
   font-size: 16px;
   font-weight: 400px;
 }
@@ -69,11 +80,13 @@ nav {
   border: 2px #e74c3c;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 /* Recent Posts */
 .recent-posts {
   background: #edf7fa;
+  padding: 40px 0;
 }
 
 .posts-header {
@@ -81,7 +94,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
+.posts-header a {
+  color: #00a8cc;
+}
 .posts-grid {
   display: flex;
 
@@ -98,13 +113,20 @@ nav {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+.posts-header h4 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+}
 .post h3 {
-  margin-top: 0;
+  margin-bottom: 26px;
 }
 
 .date {
-  color: gray;
-  font-size: 14px;
+  font-size: 18px;
+  margin-bottom: 32px;
 }
 
 .featured-works .work {
@@ -113,28 +135,37 @@ nav {
   gap: 20px;
 }
 
+.featured-works h4 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+}
+
 .work img {
   width: 200px;
   height: auto;
 }
 
-.work-text h3 {
+.work-text a {
+  display: block;
   font-family: Heebo;
   font-weight: 400px;
   font-size: 22px;
   line-height: 60px;
   letter-spacing: 0px;
-
-  margin: 0;
 }
 
 .tag {
+  display: inline-block;
   background: #142850;
   color: white;
   padding: 5px 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 12px;
   margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 .category {
@@ -144,12 +175,20 @@ nav {
 
 /* Footer */
 footer {
-  background: white;
+  background: transparent;
   padding: 40px 0;
   text-align: center;
 }
 
-.footer-content img {
-  height: 24px;
-  margin: 0 10px;
+.footer-content i {
+  font-size: 30px;
+}
+.footer-content .social-icons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-icons :hover {
+  color: #ff6464;
 }

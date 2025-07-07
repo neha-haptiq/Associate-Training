@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="static/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header >
+     <div class="logo">
+      <a href="#">Neha.com</a>
+     </div>
       <nav>
         <div class="nav-links">
           <a href="#">Works</a>
@@ -33,7 +39,7 @@
               Exercitation veniam consequat sunt nostrud amet.
             </p>
           </p>
-          <button class="download-btn">Download Resume</button>
+          <a class="download-btn">Download Resume</a>
         </div>
         <div>
           <img class="banner-img" src="static/images/profile.png" alt="John's Photo" />
@@ -46,7 +52,7 @@
     <section class="recent-posts">
       <div class="container">
         <div class="posts-header">
-          <h2>Recent posts</h2>
+          <h4>Recent posts</h4>
           <a href="#">View all</a>
         </div>
         <div class="posts-grid">
@@ -76,12 +82,14 @@
     <!-- Featured Works -->
     <section class="featured-works">
       <div class="container">
-        <h2>Featured works</h2>
+        <h4>Featured works</h4>
 
-        <div class="work">
+        <ul class="works">
+
+        <li class="work">
           <img src="static\images\dashboard.png" alt="Dashboard" />
           <div class="work-text">
-            <h3>Designing Dashboards</h3>
+            <a href="#">Designing Dashboards</a>
             <span class="tag">2020</span>
             <span class="category">Dashboard</span>
             <p>
@@ -90,12 +98,13 @@
               Exercitation veniam consequat sunt nostrud amet.
             </p>
           </div>
-        </div>
+        </li>
+        <hr/>
 
-        <div class="work">
+        <li class="work">
           <img src="static/images/potraits.png" alt="Portraits" />
           <div class="work-text">
-            <h3>Vibrant Portraits of 2020</h3>
+            <a href="#">Vibrant Portraits of 2020</a>
             <span class="tag">2018</span>
             <span class="category">Illustration</span>
             <p>
@@ -104,12 +113,13 @@
               Exercitation veniam consequat sunt nostrud amet.
             </p>
           </div>
-        </div>
+        </li>
+        <hr/>
 
-        <div class="work">
+        <li class="work">
           <img src="static/images/typography.png" alt="Typography" />
           <div class="work-text">
-            <h3>36 Days of Malayalam type</h3>
+            <a href="#">36 Days of Malayalam type</a>
             <span class="tag">2018</span>
             <span class="category">Typography</span>
             <p>
@@ -118,7 +128,10 @@
               Exercitation veniam consequat sunt nostrud amet.
             </p>
           </div>
-        </div>
+        
+        </li>
+        <hr/>
+        </ul>
       </div>
     </section>
     </main>
@@ -127,12 +140,10 @@
     <footer>
       <div class="container footer-content">
         <div class="social-icons">
-          <a href="#"><img src="static/images/facebook.png" alt="FB" /></a>
-          <a href="#"><img src="static/images/ig.png" alt="IG" /></a>
-          <a href="#"><img src="static/images/twitter.png" alt="Twitter" /></a>
-          <a href="#"
-            ><img src="static/images/linkedin.png" alt="LinkedIn"
-          /></a>
+          <a href="#"><i class="fa fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
+          <a href="#"> <i class="fa fa-brands fa-linkedin"></i></a>
         </div>
         <p>Copyright ©2020 All rights reserved</p>
       </div>
