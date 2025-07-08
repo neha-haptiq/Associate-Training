@@ -6,8 +6,6 @@
 
 img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .container {
@@ -15,29 +13,33 @@ img {
   margin: auto;
 }
 
-header {
-  position: absolute;
+header .container {
+  /* position: absolute;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 10; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header div {
+/* header div {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
   align-items: center;
   text-align: center;
-}
+} */
 .head {
   display: flex;
   align-items: center;
   text-align: center;
 }
-.logo {
+/* .logo {
   display: flex;
   align-items: center;
-}
+} */
 .logo a {
   color: #fff;
   text-decoration: none;
@@ -81,6 +83,7 @@ nav {
   flex-direction: column;
 }
 h1 {
+  display: flex;
   color: #fff;
   font-size: 72px;
   align-items: center;
@@ -113,6 +116,22 @@ h1 {
   padding: 60px 20px;
   text-align: center;
 }
+h3 {
+  font-size: 14px;
+  letter-spacing: 9px;
+  color: #6c00ff;
+  margin-bottom: 16px;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 64px;
+  color: #222831;
+}
+
+h4 {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
 
 .serviceGrid {
   display: flex;
@@ -129,17 +148,163 @@ h1 {
 
 .iconCircle {
   width: 96px;
-  height: 96    px;
+  height: 96px;
   background-color: #6c00ff;
   border-radius: 50%;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 32px auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .iconCircle img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
+}
+.serviceDiscription {
+  font-size: 16px;
+  color: #393e46;
+}
+
+/* feataure */
+.feature h2 {
+  margin-bottom: 32px;
+}
+.feature {
+  display: flex;
+  align-items: center; /* Vertically align items in the middle */
+  gap: 50px; /* Space between the card and image */
+  margin-bottom: 80px; /* Space between feature sections */
+  background-color: #fff; /* White background for the feature box */
+  padding: 40px;
+}
+
+/* Reverse layout for the second feature */
+.featureReverse {
+  flex-direction: row-reverse; /* This reverses the order */
+}
+
+.featureCard {
+  padding-right: 100px; /* Space between text content and image if not reversed */
+}
+
+.featureReverse .featureCard {
+  padding-right: 0;
+  padding-left: 20px; /* Add padding when reversed */
+}
+
+.featureHeadingSub {
+  font-size: 14px;
+  color: #6c63ff; /* Example color, adjust to your design */
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block; /* Ensures it takes up its own line */
+}
+
+.featureHeadingMain {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 32px;
+  line-height: 1.2;
+}
+
+.featureText {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.featureList {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.featureList li {
+  font-size: 16px;
+  /* color: #393e46; */
+  margin-bottom: 15px; /* Space between list items */
+  display: flex; /* For aligning icon and text */
+  align-items: center;
+  gap: 10px;
+}
+
+.featureList li i {
+  width: 20px; /* Adjust icon size */
+  height: 20px;
+}
+
+.featureImage {
+  overflow: hidden; /*Inside the box */
+  max-width: 475px;
+  height: 400px;
+}
+
+.featureImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .imageBox {
+  background-color: #6c63ff;
+  position: absolute;
+  z-index: 1;
+} */
+
+/* footer */
+.footer {
+  background-color: #fff;
+  padding: 40px 0;
+
+  text-align: center;
+  margin-top: 80px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footerBrand h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+.footerNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footerNav li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footerNav li a:hover {
+  color: #6c63ff;
+}
+
+.footerCopyright p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+.logoImg {
+  width: 71px;
 }
