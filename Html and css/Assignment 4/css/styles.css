@@ -34,7 +34,6 @@ a {
 
 /* heder */
 header {
-<<<<<<< HEAD
   position: absolute;
   top: 0;
   left: 0;
@@ -50,23 +49,6 @@ header {
   justify-content: space-between;
 }
 
-=======
-  /* position: absolute; */
-  width: 100%;
-  /* background: transparent; */
-}
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
->>>>>>> cfb80f7 (Assignment 4)
 .logo {
   display: flex;
   align-items: center;
@@ -143,15 +125,9 @@ nav {
   height: 100vh;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   position: relative;
   z-index: 1;
   /* margin-top: -80px; */
-=======
-  /* position: relative; */
-  z-index: 1;
-  margin-top: -110px;
->>>>>>> cfb80f7 (Assignment 4)
 }
 
 .innerBanner {
