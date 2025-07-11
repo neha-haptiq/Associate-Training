@@ -1,0 +1,88 @@
+@media screen and (max-width: 991px) {
+  .bannerContent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 43px;
+    margin-bottom: 0px;
+  }
+
+  .bannerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bannerText h1 {
+    font-size: 32px;
+  }
+
+  .bannerText p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .bannerImg {
+    width: 174.375px;
+    height: 180px;
+  }
+
+  .postsHeader {
+    display: flex;
+    justify-content: center;
+  }
+  .postsHeader a {
+    display: none;
+  }
+  .postsGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .postsHeader h4 {
+    font-size: 18px;
+  }
+  .post h3 {
+    font-size: 22px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+  .featuredWorks .work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .featuredWorks h4 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .workImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .workImage img {
+    width: 339;
+    height: 230;
+    border-radius: 6px;
+  }
+
+  .workText a {
+    font-size: 24px;
+  }
+
+  .tag {
+    font-size: 16px;
+  }
+  .category {
+    font-size: 16px;
+  }
+}
