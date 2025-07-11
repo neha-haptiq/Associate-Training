@@ -80,6 +80,10 @@
     font-size: 24px;
   }
 
+  .workText p {
+    justify-content: center;
+  }
+
   .tag {
     font-size: 16px;
   }

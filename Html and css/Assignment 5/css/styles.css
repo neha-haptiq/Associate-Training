@@ -76,7 +76,7 @@ nav {
 }
 
 .bannerImg img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -196,7 +196,10 @@ nav {
   border-radius: 20px;
   font-size: 18px;
   margin-right: 10px;
-  margin-bottom: 30px;
+}
+
+.subText {
+  margin-bottom: 40px;
 }
 
 .category {
