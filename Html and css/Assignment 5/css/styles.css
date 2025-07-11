@@ -28,7 +28,7 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 32px;
+  padding: 20px;
 }
 
 .logo {
@@ -81,7 +81,7 @@ nav {
 }
 
 .btn {
-  /* padding: 10px; */
+  display: block;
   border: 2px #e74c3c;
   font-weight: bold;
   cursor: pointer;
@@ -164,12 +164,12 @@ nav {
   font-size: 22px;
   line-height: 60px;
   letter-spacing: 0px;
-  margin-bottom: 22px;
+  /* margin-bottom: 22px; */
 }
 
 .workImage {
-  width: 200px;
-  height: 200px;
+  width: 246px;
+  height: 180px;
   overflow: hidden;
   border-radius: 6px;
 }
