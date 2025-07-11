@@ -81,13 +81,13 @@ nav {
 }
 
 .btn {
-  display: block;
   border: 2px #e74c3c;
   font-weight: bold;
   cursor: pointer;
 }
 
 .btn a {
+  display: inline-block;
   color: #fff;
   background: #ff6464;
   padding: 10px 20px;
