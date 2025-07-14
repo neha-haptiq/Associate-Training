@@ -5,6 +5,7 @@
   box-sizing: border-box;
   line-height: 1.5;
   font-weight: 400;
+  font-family: "work sans", sans-serif;
 }
 
 a {
@@ -20,7 +21,6 @@ img {
 
 h1,
 h2,
-h4,
 h5 {
   font-family: "Crimson Text", serif;
   font-weight: 700;
@@ -34,11 +34,12 @@ h2 {
   font-size: 32px;
 }
 h4 {
-  font-family: "work sans", sans-serif;
   color: #74c69d;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  line-height: 125%;
 }
 h5 {
   font-size: 20px;
@@ -58,7 +59,6 @@ p {
 
 .button a,
 .exploreBtn a {
-  font-family: "work sans", sans-serif;
   display: inline-block;
   padding: 10px 30px;
   background-color: #000;
@@ -91,9 +91,8 @@ p {
 }
 
 .headerLinks li a {
-  font-family: "work sans", sans-serif;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* Banner Section */
@@ -235,15 +234,7 @@ footer {
   text-align: center;
 }
 
-.plansText h4 {
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-}
-
 .plansText h2 {
-  font-family: "Crimson Text", serif;
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 15px;
@@ -276,16 +267,21 @@ footer {
 
 .planCard h3 {
   font-size: 24px;
-  font-family: "Crimson Text", serif;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+.planCard h6 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
 }
 
 .planCard .price {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
-  font-family: "Work Sans", sans-serif;
 }
 
 .planCard p {
