@@ -1,0 +1,40 @@
+.bg-green {
+  background-color: #74c69d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "work sans", sans-serif;
+}
+h1,
+h2,
+h5 {
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
+h4 {
+  color: #74c69d;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  line-height: 125%;
+}
+h5 {
+  font-size: 20px;
+}
+.partnerImage {
+  max-width: 152px;
+}
